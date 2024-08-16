@@ -34,6 +34,11 @@ export default defineConfig({
   description:
     "基于 KSW Design 设计体系的 Vue3 组件库，用于研发企业级中后台产品。",
   vite: {
+    build: {
+      rollupOptions: {
+        external: ['fontfaceobserver'] // 将 'fontfaceobserver' 模块外部化
+      }
+    },
     plugins: [],
     resolve: {
       alias: [
