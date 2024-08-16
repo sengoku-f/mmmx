@@ -39,7 +39,7 @@
 <script setup>
 import { ref, onMounted } from "vue";
 import { signal } from "./gobalState";
-import FontFaceObserver from "fontFaceObserver";
+import FontFaceObserver from "fontfaceobserver";
 
 // gsap
 import { gsap } from "gsap";
