@@ -1,0 +1,32 @@
+{
+  "name": "vue-project",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "minisearch": "^7.1.0",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@iframe-resizer/vue": "^5.1.4",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "autoprefixer": "^10.4.19",
+    "fontfaceobserver": "^2.3.0",
+    "gsap": "^3.12.5",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4",
+    "vite": "^5.2.8",
+    "vitepress": "^1.1.4",
+    "vitepress-sidebar": "^1.23.0",
+    "vue-clipboard3": "^2.0.0",
+    "vue-m-message": "^4.0.2"
+  }
+}
